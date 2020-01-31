@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="WEB DE PROVA PEL MODUL SMX2 - M08: APLICACIONS WEB">
+	<meta name="author" content="SMX2">
+	<meta name="keywords" content="PROVA,WEB,SMX,CENDRASSOS">
+	<title>Exemple de Web M08 - SMX2A</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="format2.css">
+</head>
+<body>
+
+<header>
+	<h1>Aquí anirà el header de la pàgina</header>
+</header>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Inici</a>
+  <a href="#news">Novetats</a>
+  <a href="#products">Productes</a>
+  <a href="#contact">Contacta</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script language="javascript" type="text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
