@@ -30,6 +30,9 @@ body {
 .topnav .icon {
   display: none;
 }
+h1 {
+  padding:40px 40px; font-family:Arial;text-decoration:none;fontweight:600px;color:#929292;
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
